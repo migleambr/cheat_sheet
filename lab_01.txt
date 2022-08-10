@@ -1,0 +1,41 @@
+List of commands (9 August):
+
+- Navigating the terminal:
+	- pwd: prints the working directory
+	- ls: lists files within the directory
+		- ls -l: in-depth breakdown of available files within the directory
+		- ls -a: in-depth breakdown of hidden and available files within the directory
+	- cd: sets the directory
+		- cd: will return to root directory
+		- cd .. : will go up a level
+		- use tab to autocomplete names of directories
+	- mkdir: creates a new directory
+	- touch: creates a new file
+		- .file extension (e.g., .txt, .png)
+		- open: opens the file
+		- open . : opens the file in finder
+		- rm: removes the file
+	- mv: moves the file to new directory
+		- mv file_name.png .. : moves file up a level across the directories
+		- mv file_name.png new_name.png : renames the file
+	- cp: copies the file
+		- cp file_name.png my_directory : copies into the specified directory
+	- rm -r: recursive function 
+
+- Git version control:
+	- git init: initialise the git repository
+	- git status: returns modifications to file (red - not committed, green - committed)
+	- git add . : adds a new file to the repo
+	- git commit -m " ": commits a change alongside a message of modification
+	- git log: returns the history of commits with comments
+	- git revert (7 digit commit id): undoes the specific commit
+	- rm rf .git: closes all git channels
+
+- GitHub setup:
+	- git remote add origin git@github.com:migleambr/git_practice.git: links with a new repository - copy SSH link from GitHub 
+	- git push origin main: uploads the code to the main branch
+	- git pull: downloads the code
+	- git clone git@github.com:BrightNetworkTechAcademy/c6_coursenotes.git: clones the files within the repository
+
+
+
